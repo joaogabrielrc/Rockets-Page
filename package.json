@@ -1,0 +1,16 @@
+{
+  "name": "jg-rockets",
+  "version": "1.0.0",
+  "description": "Rockets App",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "tailwindcss -i ./src/input.css -o ./build/css/style.css --watch"
+  },  
+  "author": "@joaogabrielrc",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "2.8.1",
+    "prettier-plugin-tailwindcss": "0.2.1",
+    "tailwindcss": "3.2.4"
+  }
+}
